@@ -1,0 +1,196 @@
+2018-12-07 00:32:35.879  INFO 8408 --- [restartedMain] c.r.savings.RxSavingsServiceApplication  : Starting RxSavingsServiceApplication on LAPTOP-ELTMVG6B with PID 8408 (E:\worskspaces\implemented-projects\rx-savings-service\target\classes started by Anoop Deshpande in E:\worskspaces\implemented-projects\rx-savings-service)
+2018-12-07 00:32:35.880  INFO 8408 --- [restartedMain] c.r.savings.RxSavingsServiceApplication  : No active profile set, falling back to default profiles: default
+2018-12-07 00:32:39.325  INFO 5656 --- [restartedMain] c.r.savings.RxSavingsServiceApplication  : Starting RxSavingsServiceApplication on LAPTOP-ELTMVG6B with PID 5656 (E:\worskspaces\implemented-projects\rx-savings-service\target\classes started by Anoop Deshpande in E:\worskspaces\implemented-projects\rx-savings-service)
+2018-12-07 00:32:39.333  INFO 5656 --- [restartedMain] c.r.savings.RxSavingsServiceApplication  : No active profile set, falling back to default profiles: default
+2018-12-07 00:32:39.423  INFO 5656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-07 00:32:39.423  INFO 5656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-07 00:32:40.434  INFO 5656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-07 00:32:40.513  INFO 5656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2018-12-07 00:32:40.964  INFO 5656 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd171ceb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-07 00:32:41.443  INFO 5656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2018-12-07 00:32:41.475  INFO 5656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-07 00:32:41.475  INFO 5656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-07 00:32:41.486  INFO 5656 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;E:\spring-dev\tools\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\Anoop Deshpande\AppData\Roaming\npm\node_modules\bower\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Anoop Deshpande\AppData\Local\GitHubDesktop\bin;C:\Users\Anoop Deshpande\AppData\Local\Microsoft\WindowsApps;;C:\Users\Anoop Deshpande\AppData\Local\Programs\Fiddler;E:\spring-dev\tools\sts-bundle\sts-3.9.0.RELEASE;;.]
+2018-12-07 00:32:41.671  INFO 5656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-07 00:32:41.672  INFO 5656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2249 ms
+2018-12-07 00:32:41.919  INFO 5656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-07 00:32:42.040  INFO 5656 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-07 00:32:42.124  INFO 5656 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-07 00:32:42.373  INFO 5656 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-07 00:32:42.375  INFO 5656 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-07 00:32:42.545  INFO 5656 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-07 00:32:42.724  INFO 5656 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-12-07 00:32:43.394  INFO 5656 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4b8ea476'
+2018-12-07 00:32:43.398  INFO 5656 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-07 00:32:43.447  INFO 5656 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-07 00:32:44.058  INFO 5656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-07 00:32:44.101  WARN 5656 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-07 00:32:44.359  INFO 5656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2018-12-07 00:32:44.362  INFO 5656 --- [restartedMain] c.r.savings.RxSavingsServiceApplication  : Started RxSavingsServiceApplication in 5.577 seconds (JVM running for 7.238)
+2018-12-07 00:33:00.277  INFO 5656 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-07 00:33:00.277  INFO 5656 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-07 00:33:00.289  INFO 5656 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2018-12-07 00:33:00.395  INFO 5656 --- [http-nio-9000-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-07 00:33:00.590 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Fetched data from data base successfully, total records fetched 30
+2018-12-07 00:33:00.591 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.591 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.592 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.001423
+2018-12-07 00:33:00.592 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.592 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.68695
+2018-12-07 00:33:00.593 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.593 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.593 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.03504
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.7587
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.05433
+2018-12-07 00:33:00.594 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.68453
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.05167
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.70534
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.595 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.016384
+2018-12-07 00:33:00.596 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.596 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.65065
+2018-12-07 00:33:00.596 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.597 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.597 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.03955
+2018-12-07 00:33:00.597 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.597 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.76459
+2018-12-07 00:33:00.598 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.598 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.598 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.05121
+2018-12-07 00:33:00.598 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.727
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.907753
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.599 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.60801
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.015053
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.77866
+2018-12-07 00:33:00.600 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.95792
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.628815
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.601 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.602 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.885345
+2018-12-07 00:33:00.602 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.602 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.628
+2018-12-07 00:33:00.602 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.602 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.88323
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.64518
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.041603
+2018-12-07 00:33:00.603 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.604 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.764626
+2018-12-07 00:33:00.604 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.604 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.604 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.015503
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.76434
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.012157
+2018-12-07 00:33:00.605 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.76394
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.05716
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.76692
+2018-12-07 00:33:00.606 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.129845
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -95.712654
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.607 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.926632
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.64744
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.608 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.91619
+2018-12-07 00:33:00.609 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.609 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.640366
+2018-12-07 00:33:00.609 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.609 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.02931
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.27175
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.610 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.24385
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.44961
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.02353
+2018-12-07 00:33:00.611 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.612 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.260605
+2018-12-07 00:33:00.612 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.612 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.624 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.024193
+2018-12-07 00:33:00.625 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.625 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.25503
+2018-12-07 00:33:00.625 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.625 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.625 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.983765
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.459305
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.993
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.47083
+2018-12-07 00:33:00.626 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.010704
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.27108
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.245758
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.627 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.44702
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.037548
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.27153
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.628 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.629 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 38.995342
+2018-12-07 00:33:00.629 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.630 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.4734
+2018-12-07 00:33:00.630 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Calculating distance for following latitute and longitude pair
+2018-12-07 00:33:00.630 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLat: 12.22
+2018-12-07 00:33:00.631 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy latitude 39.24387
+2018-12-07 00:33:00.631 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : userLongitude: -23.567
+2018-12-07 00:33:00.631 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : pharmacy longitude -94.441864
+2018-12-07 00:33:00.631 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Nearest Pharmacy Name : WAL-MART PHARMACY
+2018-12-07 00:33:00.631 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Nearest Pharmacy Address : 600 NE CORONADO DRIVE
+2018-12-07 00:33:00.632 DEBUG 5656 --- [http-nio-9000-exec-1] com.rx.savings.service.RxSavingsService  : Nearest Pharmacy Distance : 4644.270113873142
+2018-12-07 00:33:30.245  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-07 00:33:30.257  INFO 5656 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
