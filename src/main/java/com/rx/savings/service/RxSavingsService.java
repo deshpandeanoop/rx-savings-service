@@ -15,7 +15,7 @@ import com.rx.savings.response.PharmacyResponse;
 public class RxSavingsService implements IRxSavingsService{
 	@Autowired
 	private  RxSavingsRepository rxSavingsRepository;
-	private Logger logger = LoggerFactory.getLogger(RxSavingsService.class);
+	private final  Logger logger = LoggerFactory.getLogger(RxSavingsService.class);
 	@Override
 	public PharmacyResponse getNearestPharmacy(double userLocationLatitude, double userLocationLongitude) {
 		List<Pharmacy> pharmacies = rxSavingsRepository.findAll();
